@@ -23,7 +23,7 @@ public class Calculator {
         double num2 = scanner.nextDouble();
 
         // Perform the chosen operation
-        double result = 0;
+        double result;
         switch (choice) {
             case 1:
                 result = num1 + num2;
@@ -45,11 +45,12 @@ public class Calculator {
                     System.out.println("Error: Division by zero is not allowed.");
                 }
                 break;
-            default:
-                System.out.println("Invalid choice. Please select a valid operation.");
+            
         }
 
         // Close the scanner
         scanner.close();
     }
 }
+
+
