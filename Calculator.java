@@ -45,8 +45,7 @@ public class Calculator {
                     System.out.println("Error: Division by zero is not allowed.");
                 }
                 break;
-            default:
-                System.out.println("Invalid choice. Please select a valid operation.");
+            
         }
 
         // Close the scanner
